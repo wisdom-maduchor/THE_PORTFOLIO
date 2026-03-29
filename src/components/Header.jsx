@@ -37,7 +37,7 @@ const Header = () => {
       <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
         <Link to="/" className="logo d-flex align-items-center me-auto me-xl-0" onClick={closeMobileNav}>
-          <h1 className="sitename">Kelly</h1>
+          <h1 className="sitename">Wiz.DOM</h1>
         </Link>
 
         <nav id="navmenu" className="navmenu">
@@ -47,7 +47,7 @@ const Header = () => {
             <li><Link to="/resume" className={isActive('/resume')} onClick={closeMobileNav}>Resume</Link></li>
             <li><Link to="/services" className={isActive('/services')} onClick={closeMobileNav}>Services</Link></li>
             <li><Link to="/portfolio" className={isActive('/portfolio')} onClick={closeMobileNav}>Portfolio</Link></li>
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Dropdown 1</a></li>
@@ -65,7 +65,7 @@ const Header = () => {
                 <li><a href="#">Dropdown 3</a></li>
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
-            </li>
+            </li> */}
             <li><Link to="/contact" className={isActive('/contact')} onClick={closeMobileNav}>Contact</Link></li>
           </ul>
           <i className={`mobile-nav-toggle d-xl-none bi ${mobileNavActive ? 'bi-x' : 'bi-list'}`} onClick={toggleMobileNav}></i>
@@ -73,10 +73,10 @@ const Header = () => {
 
         <div className="header-social-links d-flex align-items-center">
           <ThemeToggle />
-          <a href="#" className="twitter ms-3"><i className="bi bi-twitter-x"></i></a>
+          {/* <a href="#" className="twitter ms-3"><i className="bi bi-twitter-x"></i></a>
           <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
           <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-          <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+          <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a> */}
         </div>
 
 

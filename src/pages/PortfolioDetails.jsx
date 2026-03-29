@@ -18,7 +18,7 @@ const PortfolioDetails = () => {
     <section id="portfolio-details" className="portfolio-details section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Portfolio Details</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>A deep dive into the technical implementation and key features of this project.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -63,19 +63,20 @@ const PortfolioDetails = () => {
             <div className="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: Software Engineering</li>
+                <li><strong>Client</strong>: Various</li>
+                <li><strong>Project date</strong>: 2024 - 2025</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/wisdom-maduchor">github.com/wisdom-maduchor</a></li>
               </ul>
             </div>
             <div className="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
+              <h2>Detailed Project Overview</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                This project involved the full lifecycle of development, from initial requirements gathering to final deployment. I utilized modern frameworks and automation tools to ensure a high-quality, scalable solution that met all technical and business requirements.
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </section>

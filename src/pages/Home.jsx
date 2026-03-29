@@ -9,8 +9,9 @@ const Home = () => {
       <div className="container text-center" data-aos="zoom-out" data-aos-delay="100">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <h2>Kelly Adams</h2>
-            <p>I'm a professional illustrator from San Francisco</p>
+            <h2>Maduchor Wisdom</h2>
+            <p>I'm a Software Engineer and Automation Developer</p>
+
             <Link to="/about" className="btn-get-started">About Me</Link>
           </div>
         </div>

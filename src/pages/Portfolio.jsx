@@ -59,31 +59,42 @@ const Portfolio = () => {
     <section id="portfolio" className="portfolio section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>A collection of my recent projects, spanning web development, workflow automation, and systems integration.</p>
       </div>
 
       <div className="container">
         <div className="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" className="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
+            <li data-filter=".filter-app">Web Apps</li>
+            <li data-filter=".filter-product">Automation</li>
+            <li data-filter=".filter-branding">Integrations</li>
           </ul>
 
           <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            {portfolioItems.map((item) => (
+            {[
+              { id: 1, category: 'filter-app', title: 'E-Commerce Platform', desc: 'React-based online store', img: '/assets/img/masonry-portfolio/masonry-portfolio-1.jpg' },
+              { id: 2, category: 'filter-product', title: 'WhatsApp Automation', desc: 'Bot for customer interactions', img: '/assets/img/masonry-portfolio/masonry-portfolio-2.jpg' },
+              { id: 3, category: 'filter-branding', title: 'ERP Integration', desc: 'Enterprise data synchronization', img: '/assets/img/masonry-portfolio/masonry-portfolio-3.jpg' },
+              { id: 4, category: 'filter-app', title: 'Food Delivery App', desc: 'Real-time ordering system', img: '/assets/img/masonry-portfolio/masonry-portfolio-4.jpg' },
+              { id: 5, category: 'filter-product', title: 'Support Chatbot', desc: 'AI-driven customer support', img: '/assets/img/masonry-portfolio/masonry-portfolio-5.jpg' },
+              { id: 6, category: 'filter-branding', title: 'Custom Dashboard', desc: 'Business analytics tool', img: '/assets/img/masonry-portfolio/masonry-portfolio-6.jpg' },
+              { id: 7, category: 'filter-app', title: 'Inventory Manager', desc: 'Stock tracking application', img: '/assets/img/masonry-portfolio/masonry-portfolio-7.jpg' },
+              { id: 8, category: 'filter-product', title: 'Lead Gen Bot', desc: 'Automated marketing tool', img: '/assets/img/masonry-portfolio/masonry-portfolio-8.jpg' },
+              { id: 9, category: 'filter-branding', title: 'API Gateway', desc: 'Microservices communication', img: '/assets/img/masonry-portfolio/masonry-portfolio-9.jpg' },
+            ].map((item) => (
               <div key={item.id} className={`col-lg-4 col-md-6 portfolio-item isotope-item ${item.category}`}>
                 <img src={item.img} className="img-fluid" alt={item.title} />
                 <div className="portfolio-info">
                   <h4>{item.title}</h4>
-                  <p>Lorem ipsum, dolor sit</p>
+                  <p>{item.desc}</p>
                   <a href={item.img} title={item.title} data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
                   <Link to="/portfolio-details" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></Link>
                 </div>
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>

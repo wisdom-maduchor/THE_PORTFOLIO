@@ -40,7 +40,8 @@ const About = () => {
       <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
           <h2>About</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <p>Passionate about creating efficient, automated solutions and high-quality web applications with a focus on user experience and performance.</p>
+
         </div>
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -49,33 +50,33 @@ const About = () => {
               <img src="/assets/img/profile-img.jpg" className="img-fluid" alt="" />
             </div>
             <div className="col-lg-8 content">
-              <h2>UI/UX Designer &amp; Web Developer.</h2>
+              <h2>Software Engineer &amp; Automation Developer</h2>
               <p className="fst-italic py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+                Enthusiastic and fast-learning Software Engineer, eager to contribute to and grow within dynamic teams. Adaptable and solution-oriented, thrives in collaborative environments and always ready to take on new challenges.
               </p>
+
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                    {/* <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>Available on Request</span></li> */}
+                    <li><i className="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span>github.com/wisdom-maduchor</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>09165487607 / 09079785154</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lagos, Nigeria</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Masters</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Eng. (Ongoing)</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>maduchorwisdom@gmail.com</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                   </ul>
+
                 </div>
               </div>
               <p className="py-3">
-                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+                As a Software Engineer with experience in both frontend development (React, Angular) and automation (RappidBot, Z-API), I specialize in building scalable, user-centric applications. My expertise spans the entire development lifecycle, from designing intuitive UIs to integrating robust backend services and automating business workflows.
               </p>
+
             </div>
           </div>
         </div>
@@ -84,51 +85,65 @@ const About = () => {
       <section id="skills" className="skills section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Skills</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <p>A diverse set of technologies and tools used to build modern, scalable, and user-friendly digital products.</p>
+
         </div>
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row skills-content skills-animation">
             <div className="col-lg-6">
               <div className="progress">
-                <span className="skill"><span>HTML</span> <i className="val">100%</i></span>
+                <span className="skill"><span>React.js / Frontend</span> <i className="val">95%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="progress">
-                <span className="skill"><span>CSS</span> <i className="val">90%</i></span>
+                <span className="skill"><span>Angular.js</span> <i className="val">85%</i></span>
+                <div className="progress-bar-wrap">
+                  <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div className="progress">
+                <span className="skill"><span>JavaScript / TypeSript</span> <i className="val">90%</i></span>
                 <div className="progress-bar-wrap">
                   <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="progress">
-                <span className="skill"><span>JavaScript</span> <i className="val">75%</i></span>
+                <span className="skill"><span>Node.js / Express.js</span> <i className="val">80%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="progress">
-                <span className="skill"><span>PHP</span> <i className="val">80%</i></span>
+                <span className="skill"><span>Automation (RappidBot/Z-API)</span> <i className="val">95%</i></span>
+                <div className="progress-bar-wrap">
+                  <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div className="progress">
+                <span className="skill"><span>Databases (MySQL/MongoDB)</span> <i className="val">80%</i></span>
                 <div className="progress-bar-wrap">
                   <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="progress">
-                <span className="skill"><span>WordPress/CMS</span> <i className="val">90%</i></span>
+                <span className="skill"><span>Tailwind CSS</span> <i className="val">90%</i></span>
                 <div className="progress-bar-wrap">
                   <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="progress">
-                <span className="skill"><span>Photoshop</span> <i className="val">55%</i></span>
+                <span className="skill"><span>Git / GitHub / Jira</span> <i className="val">90%</i></span>
                 <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -136,8 +151,9 @@ const About = () => {
       {/* <section id="stats" className="stats section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Facts</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <p>Key highlights of my professional journey and the impact of my work.</p>
         </div>
+
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4">
@@ -172,8 +188,9 @@ const About = () => {
       <section id="testimonials" className="testimonials section">
         {/* <div className="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <p>What clients and collaborators have to say about working with me.</p>
         </div> */}
+
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="swiper init-swiper">
@@ -203,8 +220,9 @@ const About = () => {
                   </div>
                   <p>
                     <i className="bi bi-quote quote-icon-left"></i>
-                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                    <span>The automation solution provided was world-class. It saved us hundreds of hours of manual work and integrated perfectly with our existing systems.</span>
                     <i className="bi bi-quote quote-icon-right"></i>
+
                   </p>
                 </div>
               </div> */}
