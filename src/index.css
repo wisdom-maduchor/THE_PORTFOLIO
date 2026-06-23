@@ -69,6 +69,13 @@
   color: #222222;
 }
 
+/* Hero background image positioning: show lower part, zoomed out */
+.hero img {
+  object-fit: contain;
+  object-position: center bottom;
+  background-color: #ffffff;
+}
+
 :root.dark #social .button-icon {
   filter: invert(1) brightness(2);
 }
