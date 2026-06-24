@@ -26,7 +26,7 @@ const Resume = () => {
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
               <h4>B.Eng. Computer Engineering</h4>
-              <h5>2026 (Expected)</h5>
+              <h5>2026</h5>
               <p><em>Federal University of Oye-Ekiti</em></p>
             </div>
 

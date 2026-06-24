@@ -65,16 +65,18 @@
 
 /* Keep Home Hero text dark in all modes */
 :root.dark .hero h2,
-:root.dark .hero p {
-  color: #222222;
+:root.dark .hero p,
+:root.light .hero h2,
+:root.light .hero p {
+  /* color: #222222; */
+  color: #ffffffff;
 }
+/* :root.light .hero h2,
+:root.light .hero p {
+  color: #ffffff;
+} */
 
-/* Hero background image positioning: show lower part, zoomed out */
-.hero img {
-  object-fit: contain;
-  object-position: center bottom;
-  background-color: #ffffff;
-}
+
 
 :root.dark #social .button-icon {
   filter: invert(1) brightness(2);
@@ -137,3 +139,9 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+.sitename span {
+    font-size: 40px;
+    font-weight: 600;
+    color: red;
+    margin: 0 2px;
+  }

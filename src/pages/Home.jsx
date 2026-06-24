@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <section id="hero" className="hero section">
-      <img src="/assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+      <img src="/assets/img/image12.jpg" alt="" data-aos="fade-in" />
 
       <div className="container text-center" data-aos="zoom-out" data-aos-delay="100">
         <div className="row justify-content-center">

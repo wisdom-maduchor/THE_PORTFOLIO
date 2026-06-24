@@ -66,7 +66,7 @@ const About = () => {
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Eng. (Ongoing)</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Eng.</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>maduchorwisdom@gmail.com</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                   </ul>

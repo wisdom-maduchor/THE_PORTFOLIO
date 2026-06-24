@@ -37,7 +37,7 @@ const Header = () => {
       <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
         <Link to="/" className="logo d-flex align-items-center me-auto me-xl-0" onClick={closeMobileNav}>
-          <h1 className="sitename">Wiz.DOM</h1>
+          <h1 class="sitename">Wiz<span>.</span>DOM</h1>
         </Link>
 
         <nav id="navmenu" className="navmenu">
