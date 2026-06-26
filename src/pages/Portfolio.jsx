@@ -12,13 +12,13 @@ const Portfolio = () => {
 
     // Initialize Isotope
     if (window.Isotope && window.imagesLoaded) {
-      document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
+      document.querySelectorAll('.isotope-layout').forEach(function (isotopeItem) {
         let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
         let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
         let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
 
         let initIsotope;
-        window.imagesLoaded(isotopeItem.querySelector('.isotope-container'), function() {
+        window.imagesLoaded(isotopeItem.querySelector('.isotope-container'), function () {
           initIsotope = new window.Isotope(isotopeItem.querySelector('.isotope-container'), {
             itemSelector: '.isotope-item',
             layoutMode: layout,
@@ -27,8 +27,8 @@ const Portfolio = () => {
           });
         });
 
-        isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filters) {
-          filters.addEventListener('click', function() {
+        isotopeItem.querySelectorAll('.isotope-filters li').forEach(function (filters) {
+          filters.addEventListener('click', function () {
             isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
             this.classList.add('filter-active');
             initIsotope.arrange({

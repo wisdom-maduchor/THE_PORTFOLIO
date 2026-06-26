@@ -27,7 +27,7 @@ const Resume = () => {
             <div className="resume-item">
               <h4>B.Eng. Computer Engineering</h4>
               <h5>2026</h5>
-              <p><em>Federal University of Oye-Ekiti</em></p>
+              <p><em>Federal University Oye-Ekiti</em></p>
             </div>
 
             <div className="resume-item">
