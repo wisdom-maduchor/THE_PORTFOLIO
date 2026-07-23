@@ -47,7 +47,7 @@ const Resume = () => {
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
               <h4>Automation Developer</h4>
-              <h5>Feb. 2025 - Present</h5>
+              <h5>Feb. 2025 - April 2026</h5>
               <p><em>Bravo Ltd.</em></p>
               <ul>
                 <li>Designed chatbot automation systems using RappidBot and low-code automation platforms.</li>
