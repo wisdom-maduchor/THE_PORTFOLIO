@@ -15,7 +15,13 @@ const Resume = () => {
             <h3 className="resume-title">Summary</h3>
             <div className="resume-item pb-0">
               <h4>Maduchor Wisdom U.</h4>
-              <p><em>Enthusiastic and fast-learning Software Engineer, eager to contribute to and grow within dynamic teams. Adaptable and solution-oriented, thrives in collaborative environments and always ready to take on new challenges.</em></p>
+              <p><em>Software Engineer with hands-on experience building RESTful APIs, automation systems, backend
+                    integrations, scalable web and mobile applications using React, Angular, Node.js, Express.js, and
+                    MongoDB. <br /> Skilled in API integration, database management, authentication workflows, and backend
+                    system optimization.
+                  </em>
+              </p>
+              <br />
               <ul>
                 <li>Lagos, Nigeria</li>
                 <li>09165487607 / 09079785154</li>
@@ -41,17 +47,22 @@ const Resume = () => {
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
               <h4>Automation Developer</h4>
-              <h5>June 2025 - Present</h5>
+              <h5>Feb. 2025 - Present</h5>
               <p><em>Bravo Ltd.</em></p>
               <ul>
-                <li>Designed and developed conversational bots using RappidBot and other no-code/low-code platforms.</li>
+                <li>Designed chatbot automation systems using RappidBot and low-code automation platforms.</li>
                 <li>Integrated bots with Z-API to enable automated two-way messaging on WhatsApp.</li>
                 <li>Worked closely with clients to gather requirements and build automation solutions.</li>
                 <li>Created logic-driven chatbot sequences with conditions, triggers, and custom API calls.</li>
+                <li>Built a data scraping system to structure real-time data into CSV and Excel formats.</li>
+                <li>Connected automation workflows with Google Sheets, email services, and third-party APIs.</li>
+
+                {/* <li>Improved deployment efficiency through reusable automation templates.</li>
+                <li>Documented workflow architectures to support scalable client implementations.</li> */}
               </ul>
             </div>
 
-            <div className="resume-item">
+            {/* <div className="resume-item">
               <h4>Software Developer (Freelance)</h4>
               <h5>Mar. 2025</h5>
               <p><em>Remote</em></p>
@@ -60,16 +71,20 @@ const Resume = () => {
                 <li>Integrated frontend with backend services via RESTful APIs.</li>
                 <li>Implemented real-time cart updates using React Hooks and Context API.</li>
               </ul>
-            </div>
+            </div> */}
 
             <div className="resume-item">
               <h4>Software Developer</h4>
               <h5>Feb. 2023 - Jan. 2025</h5>
               <p><em>Technocrat IT -- Lagos, Nigeria</em></p>
               <ul>
-                <li>Assisted in the development and maintenance of ERP web applications using Angular and TypeScript.</li>
-                <li>Utilized Swagger for API documentation and testing.</li>
-                <li>Leveraged Postman for automated API testing and debugging.</li>
+                <li> Collaborated with backend developers to integrate RESTful APIs into ERP web applications.</li>
+                <li> Used Swagger and Postman to document, test, and debug backend API endpoints.</li>
+                <li> Assisted in implementing scalable application modules using Angular and TypeScript within Agile development environments.</li>
+                <li> Supported troubleshooting and optimization of application performance and client-server communication.</li>
+                <li> Participated in software testing, debugging, and deployment workflows.</li>
+                <li> Maintained version control practices using Git, GitHub, and GitLab collaboration
+                workflows.</li>
               </ul>
             </div>
 
@@ -78,9 +93,12 @@ const Resume = () => {
               <h5>Aug. 2022 - March 2023</h5>
               <p><em>Tech1M -- United Kingdom (Remote)</em></p>
               <ul>
-                <li>Assisted in front-end website development using BreeCMS.</li>
+                <li>Developed and maintained responsive web applications using HTML, CSS, JavaScript and BreeCMS.</li>
+                <li>Integrated platform features and supported website optimization initiatives.</li>
+                <li>Worked directly with clients to identify and resolve technical issues.</li>
                 <li>Collaborated with the marketing team to align on project goals.</li>
-                <li>Built and maintained websites using HTML, CSS, and JavaScript.</li>
+                <li>Applied SEO and web performance best practices to improve usability and accessibility.</li>
+
               </ul>
             </div>
           </div>
