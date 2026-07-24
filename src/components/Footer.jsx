@@ -10,9 +10,9 @@ const Footer = () => {
         </div>
         <div className="social-links d-flex justify-content-center">
           <a href="https://x.com/Andre_weazy"><i className="bi bi-twitter-x"></i></a>
-          <a href="#"><i className="bi bi-facebook"></i></a>
-          <a href="#"><i className="bi bi-instagram"></i></a>
-          <a href="#"><i className="bi bi-linkedin"></i></a>
+          {/* <a href="#"><i className="bi bi-facebook"></i></a> */}
+          <a href="https://www.instagram.com/andre_weazy/"><i className="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/maduchor-wisdom-745a86229/"><i className="bi bi-linkedin"></i></a>
         </div>
         {/* <div className="credits">
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com/">ThemeWagon</a>
