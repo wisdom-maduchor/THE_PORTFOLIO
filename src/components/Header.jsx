@@ -44,7 +44,7 @@ const Header = () => {
           <ul>
             <li><Link to="/" className={isActive('/')} onClick={closeMobileNav}>Home</Link></li>
             <li><Link to="/about" className={isActive('/about')} onClick={closeMobileNav}>About</Link></li>
-            <li><Link to="/resume" className={isActive('/resume')} onClick={closeMobileNav}>Resume</Link></li>
+            {/* <li><Link to="/resume" className={isActive('/resume')} onClick={closeMobileNav}>Resume</Link></li> */}
             <li><Link to="/services" className={isActive('/services')} onClick={closeMobileNav}>Services</Link></li>
             <li><Link to="/portfolio" className={isActive('/portfolio')} onClick={closeMobileNav}>Portfolio</Link></li>
             {/* <li className="dropdown">
