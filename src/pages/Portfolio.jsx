@@ -64,12 +64,12 @@ const Portfolio = () => {
 
       <div className="container">
         <div className="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          {/* <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100"> */}
             {/* <li data-filter="*" className="filter-active">All</li> */}
             {/* <li data-filter=".filter-app">Web Apps</li>
             <li data-filter=".filter-product">Automation</li>
             <li data-filter=".filter-branding">Integrations</li> */}
-          </ul>
+          {/* </ul> */}
 
           <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
             {[
@@ -84,7 +84,7 @@ const Portfolio = () => {
               // { id: 9, category: 'filter-branding', title: 'API Gateway', desc: 'Microservices communication', img: '/assets/img/masonry-portfolio/masonry-portfolio-9.jpg', url: '#' },
             ].map((item) => (
               <div key={item.id} className={`col-lg-4 col-md-6 portfolio-item isotope-item ${item.category}`}>
-                <img src={item.img} className="img-fluid" alt={item.title} />
+                <img src={item.img} className="img-fluid portfolio-image" alt={item.title} />
                 <div className="portfolio-info">
                   <h4>{item.title}</h4>
                   <p>{item.desc}</p>

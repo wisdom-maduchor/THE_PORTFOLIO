@@ -182,3 +182,9 @@
     border-right-color: var(--border);
   }
 }
+ /* for portfolio-image in portfolio.jsx */
+ .portfolio-image {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+ }
